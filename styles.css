@@ -67,7 +67,8 @@ input {
     font-size: 40px;
     font-weight: 500;
     opacity: 5.7;
-    color: #FFF;
+    color:  #fff;
+
 }
 
 .input-min {
@@ -97,6 +98,19 @@ button:hover {
 
 button:active {
     opacity: 0.6;
+}
+
+.result {
+    background-color: #00FF00;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 20px;
 }
 
 @media (max-width: 780px) {
@@ -172,6 +186,8 @@ button:active {
         border: none;
         cursor: pointer;
     }
+
+   
     
 
 
