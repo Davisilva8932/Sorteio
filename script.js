@@ -4,7 +4,7 @@ function generateNumber(){
     const max = Math.floor( document.querySelector(".input-max").value)
     const result = Math.floor(Math.random()*(max-min+1))+min
 
-   alert(result)
+   document.querySelector(".result > span").textContent = result;
 }
     
     
