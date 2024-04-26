@@ -187,6 +187,18 @@ button:active {
         cursor: pointer;
     }
 
+    .result {
+        background-color: #00FF00;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        padding: 5px;
+        border-radius: 50px;
+        font-size: 30px;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 10px;
+    }
    
     
 
